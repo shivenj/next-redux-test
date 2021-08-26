@@ -1,5 +1,5 @@
 import axios from 'axios';
-import styles from '../../../components/DropZone/customstyles.module.scss';
+import styles from '../../../styles/Main.module.scss'
 import React, { useState } from 'react';
 import DropZone from '../../../components/DropZone';
 import recipeData from '../../../../public/data.json';
