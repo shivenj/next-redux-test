@@ -5,7 +5,9 @@ import '../styles/globals.css'
 const MyApp = ({ Component, pageProps }) => {
   return (
     <Provider store={store}>
+      <div className="container">
       <Component {...pageProps} />
+      </div>
     </Provider>
   )
 }

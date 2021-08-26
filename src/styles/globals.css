@@ -1,6 +1,6 @@
 html,
 body {
-  padding: 0;
+  padding: 20px 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -13,4 +13,36 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+body > #__next > .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-header h1,
+.page-header h2,
+.page-header h3,
+.page-header h4,
+.page-header h5,
+.page-header h6 {
+  margin: 0;
+}
+
+.page-header button {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  body > #__next > .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body > #__next > .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
